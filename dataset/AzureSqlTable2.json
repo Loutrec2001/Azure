@@ -1,0 +1,20 @@
+{
+	"name": "AzureSqlTable2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureSqlDatabase1",
+			"type": "LinkedServiceReference",
+			"parameters": {
+				"URL_KeyVault": "https://kv-edward.vault.azure.net/",
+				"SecretName_KeyVault": "Databaseconectionedward2"
+			}
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "UFTProjInvoiceJourStaging"
+		}
+	}
+}
