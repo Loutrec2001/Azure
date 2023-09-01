@@ -22,12 +22,8 @@
 						"partitionOption": "None"
 					},
 					"dataset": {
-						"referenceName": "AzureSqlDataHubPro",
-						"type": "DatasetReference",
-						"parameters": {
-							"schema": "ctrl",
-							"tabla": "dual"
-						}
+						"referenceName": "AzureSqlTable2",
+						"type": "DatasetReference"
 					},
 					"firstRowOnly": false
 				}
