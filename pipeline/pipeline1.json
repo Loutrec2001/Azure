@@ -84,7 +84,7 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "AzureSqlTable2",
+									"referenceName": "AzureSqlOrigen",
 									"type": "DatasetReference"
 								}
 							],
@@ -100,9 +100,7 @@
 										"table": {
 											"value": "@item().tabla",
 											"type": "Expression"
-										},
-										"urlKeyVault": "https://kv-edward.vault.azure.net/",
-										"secretNameKeyVault": "Databaseconectionedward1"
+										}
 									}
 								}
 							]

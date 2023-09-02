@@ -22,7 +22,7 @@
 						"partitionOption": "None"
 					},
 					"dataset": {
-						"referenceName": "AzureSqlTable2",
+						"referenceName": "AzureSqlOrigen",
 						"type": "DatasetReference",
 						"parameters": {
 							"schema": "ctrl",
@@ -91,7 +91,17 @@
 							"inputs": [
 								{
 									"referenceName": "AzureSqlTableDestino",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"schema": {
+											"value": "aqs",
+											"type": "Expression"
+										},
+										"table": {
+											"value": "@replace(item().tabla_hub,'aqs','vw')",
+											"type": "Expression"
+										}
+									}
 								}
 							],
 							"outputs": [
