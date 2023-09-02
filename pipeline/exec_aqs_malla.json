@@ -90,15 +90,8 @@
 							},
 							"inputs": [
 								{
-									"referenceName": "AzureSqlTable2",
-									"type": "DatasetReference",
-									"parameters": {
-										"schema": "aqs",
-										"tabla": {
-											"value": "@replace(item().tabla_hub,'aqs','vw')",
-											"type": "Expression"
-										}
-									}
+									"referenceName": "AzureSqlTableDestino",
+									"type": "DatasetReference"
 								}
 							],
 							"outputs": [
