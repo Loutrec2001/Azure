@@ -7,7 +7,8 @@
 		},
 		"parameters": {
 			"schema": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "aqs"
 			},
 			"table": {
 				"type": "string"
