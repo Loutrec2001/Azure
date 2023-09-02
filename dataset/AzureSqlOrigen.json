@@ -3,11 +3,7 @@
 	"properties": {
 		"linkedServiceName": {
 			"referenceName": "AzureSqlDatabase1",
-			"type": "LinkedServiceReference",
-			"parameters": {
-				"schema": "aqs",
-				"tabla": "vw_cliente"
-			}
+			"type": "LinkedServiceReference"
 		},
 		"parameters": {
 			"schema": {
