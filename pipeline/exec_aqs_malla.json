@@ -23,11 +23,7 @@
 					},
 					"dataset": {
 						"referenceName": "AzureSqlOrigen",
-						"type": "DatasetReference",
-						"parameters": {
-							"schema": "ctrl",
-							"tabla": "dual"
-						}
+						"type": "DatasetReference"
 					},
 					"firstRowOnly": false
 				}
