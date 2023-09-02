@@ -11,7 +11,8 @@
 				"defaultValue": "aqs"
 			},
 			"table": {
-				"type": "string"
+				"type": "string",
+				"defaultValue": "vw_cliente"
 			}
 		},
 		"annotations": [],
