@@ -23,7 +23,11 @@
 					},
 					"dataset": {
 						"referenceName": "AzureSqlOrigen",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"schema": "ctrl",
+							"tabla": "dual"
+						}
 					},
 					"firstRowOnly": false
 				}
@@ -89,10 +93,7 @@
 									"referenceName": "AzureSqlTableDestino",
 									"type": "DatasetReference",
 									"parameters": {
-										"schema": {
-											"value": "aqs",
-											"type": "Expression"
-										},
+										"schema": "aqs",
 										"table": {
 											"value": "@replace(item().tabla_hub,'aqs','vw')",
 											"type": "Expression"
