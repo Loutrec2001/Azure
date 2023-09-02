@@ -5,8 +5,8 @@
 			"referenceName": "AzureSqlDatabase1",
 			"type": "LinkedServiceReference",
 			"parameters": {
-				"schema": "crt",
-				"tabla": "dual"
+				"schema": "aqs",
+				"tabla": "vw_cliente"
 			}
 		},
 		"parameters": {
