@@ -49,6 +49,7 @@
 						"value": "@activity('Recupera_Tablas_AQS').output.value",
 						"type": "Expression"
 					},
+					"isSequential": false,
 					"activities": [
 						{
 							"name": "Carga AQS",
@@ -93,7 +94,10 @@
 									"referenceName": "AzureSqlTableDestino",
 									"type": "DatasetReference",
 									"parameters": {
-										"schema": "aqs",
+										"schema": {
+											"value": "aqs",
+											"type": "Expression"
+										},
 										"table": {
 											"value": "@replace(item().tabla_hub,'aqs','vw')",
 											"type": "Expression"
@@ -106,7 +110,10 @@
 									"referenceName": "dsAQSTable",
 									"type": "DatasetReference",
 									"parameters": {
-										"tblAQSDestino": "@item().tabla_hub"
+										"tblAQSDestino": {
+											"value": "@item().tabla_hub",
+											"type": "Expression"
+										}
 									}
 								}
 							]
