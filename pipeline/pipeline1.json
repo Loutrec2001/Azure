@@ -93,11 +93,11 @@
 									"referenceName": "AzureSqlTableDestino",
 									"type": "DatasetReference",
 									"parameters": {
-										"schema1": {
+										"schema": {
 											"value": "@item().schema2",
 											"type": "Expression"
 										},
-										"table1": {
+										"table": {
 											"value": "@item().tabla",
 											"type": "Expression"
 										}
