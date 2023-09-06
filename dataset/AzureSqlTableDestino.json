@@ -10,8 +10,7 @@
 				"type": "string"
 			},
 			"schema": {
-				"type": "string",
-				"defaultValue": "aqs"
+				"type": "string"
 			}
 		},
 		"annotations": [],
