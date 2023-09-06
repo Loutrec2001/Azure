@@ -6,11 +6,19 @@
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
-			"table": {
+			"table1": {
 				"type": "string"
 			},
-			"schema": {
+			"schema1": {
+				"type": "string",
+				"defaultValue": "hub"
+			},
+			"tabla2": {
 				"type": "string"
+			},
+			"schema2": {
+				"type": "string",
+				"defaultValue": "aqs"
 			}
 		},
 		"annotations": [],
