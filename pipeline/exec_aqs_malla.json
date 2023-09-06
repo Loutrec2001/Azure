@@ -99,10 +99,9 @@
 											"type": "Expression"
 										},
 										"schema": {
-											"value": "aqs",
+											"value": "hub",
 											"type": "Expression"
-										},
-										"schema2": "aqs"
+										}
 									}
 								}
 							],

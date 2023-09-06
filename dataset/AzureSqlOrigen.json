@@ -7,12 +7,10 @@
 		},
 		"parameters": {
 			"schema": {
-				"type": "string",
-				"defaultValue": "aqs"
+				"type": "string"
 			},
 			"tabla": {
-				"type": "string",
-				"defaultValue": "vw_grupocorporativo"
+				"type": "string"
 			}
 		},
 		"annotations": [],
