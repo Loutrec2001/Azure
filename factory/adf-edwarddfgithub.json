@@ -1,0 +1,9 @@
+{
+	"name": "adf-edwarddfgithub",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "83d418e1-8fb1-4e15-b0b2-e65d792da2b1",
+		"tenantId": "e869e7bd-0c8d-4e63-9f56-41b65a3191ab"
+	}
+}
